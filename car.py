@@ -49,7 +49,7 @@ class Battery:
 my_tesla = ElectricCar('tesla','model y','2024')
 
 print(my_tesla.get_descriptive_name())
-my_tesla.update_odmeter(21521)
+my_tesla.update_odmeter(50000)
 my_tesla.read_odometer()
 my_tesla.battery.describe_battery()
 my_tesla.battery.get_range()
